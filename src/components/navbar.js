@@ -8,6 +8,7 @@ function Header () {
     const [isExpanded, toggleExpansion] = useState(false)
   
     return (
+        // Nav Bar Start 
         <header className="static-top md:fixed min-w-full flex items-center justify-between flex-wrap bg-white-custom p-4" style={{'zIndex': '2'}}>
         <div onClick={() => scrollTo('#top')} className="flex items-center flex-shrink-0 text-white ml-1 md:ml-3 md:mt-2.5">
             <StaticImage
