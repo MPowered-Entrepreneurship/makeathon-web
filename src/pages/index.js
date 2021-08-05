@@ -7,6 +7,8 @@ import Seo from "../components/seo"
 import Navbar from "../components/navbar"
 import makebg from "../images/make-bg.mp4"
 import About from "../components/about"
+import FAQ from "../components/faq"
+import {MakeIconUnfilled} from "../components/makeIconUnfilled"
 
 const IndexPage = () => (
   <React.Fragment>
@@ -19,14 +21,17 @@ const IndexPage = () => (
       </video>
       <div className="col-start-1 row-start-1 w-full h-full flex items-center justify-center">
         <div className="w-full h-full flex items-center justify-center flex-col">
-          <StaticImage src="../images/makeathon-filled-icon.svg" className=""/>
+          {/* <StaticImage src="../images/makeathon-filled-icon.svg" className="w-1/2 h-auto"/> */}
           {/* <StaticImage src="../images/makeathon-icon.svg" alt="Makeathon Icon" class/> */}
+          {/* <MakeIconFilled /> */}
+          <MakeIconUnfilled classInfo="z-0 filter drop-shadow-xl" fill="text-yellow-101"/>
           <p className="z-0 tracking-wider md:tracking-wider font-bold text-2xl md:text-5xl text-white filter drop-shadow-xl">M A K E A T H O N</p>
           <p className="z-0 tracking-wider md:tracking-wider font-bold md:text-4xl text-white md:pt-4 xl:mb-40 filter drop-shadow-xl">FEBRUARY 4-6, 2022</p>
           {/* Trueno Semibold */}
         </div>
       </div>
       <About />
+      <FAQ />
     </div>
    
   </React.Fragment>

@@ -31,12 +31,6 @@ function Header () {
             <button onClick={() => scrollTo('#about')} className="filter drop-shadow-lg w-full text-lg font-normal hover:font-bold focus:outline-none md:w-auto block mt-4 md:inline-block md:mt-0 text-gray-200 hover:underline md:mr-10">
               about
             </button>
-            <button onClick={() => scrollTo('#ourteam')} className="filter drop-shadow-lg w-full text-lg font-normal focus:outline-none md:w-auto block mt-4 md:inline-block md:mt-0 text-gray-200 hover:underline md:mr-10">
-              our team
-            </button>
-            <button onClick={() => scrollTo('#eventinfo')} className="filter drop-shadow-lg w-full text-lg font-normal focus:outline-none md:w-auto block mt-4 md:inline-block md:mt-0 text-gray-200 hover:underline md:mr-10">
-              event info
-            </button>
             <button onClick={() => scrollTo('#faq')} className="filter drop-shadow-lg w-full text-lg font-normal focus:outline-none md:w-auto block mt-4 md:inline-block md:mt-0 text-gray-200 hover:underline md:mr-10">
               faq
             </button>
