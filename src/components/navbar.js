@@ -18,6 +18,7 @@ function Header () {
                 quality={95}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="Makeathon Logo"
+                loading="critical"
             />
         </div>
         <div className="block md:hidden">
