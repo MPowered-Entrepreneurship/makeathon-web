@@ -8,6 +8,7 @@ import Navbar from "../components/navbar"
 import makebg from "../images/make-bg.mp4"
 import About from "../components/about"
 import FAQ from "../components/faq"
+import Contact from "../components/contact"
 import {MakeIconUnfilled} from "../components/makeIconUnfilled"
 
 const IndexPage = () => (
@@ -32,8 +33,12 @@ const IndexPage = () => (
       </div>
       <About />
       <FAQ />
+      <Contact />
+      <div className='w-full items-center flex'>
+       <p className='mx-auto text-gray-400'>© 2021 MPowered Entrepreneurship, All Rights Reserved. MPowered Entrepreneurship is a non-profit organization.</p>
+     </div>
     </div>
-   
+
   </React.Fragment>
 
   // <Layout>
