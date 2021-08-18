@@ -2,11 +2,8 @@ import React from "react"
 
 export const MakeIconUnfilled = ({ fill, stroke, stroke_size, classInfo }) => (
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-    width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"
+    width="200.000000px" height="200.000000px" viewBox="0 0 300.000000 300.000000"
     preserveAspectRatio="xMidYMid meet" className={`fill-current ${fill} stroke-current ${stroke_size} ${stroke} ${classInfo}`}>
-   <metadata>
-   Created by potrace 1.10, written by Peter Selinger 2001-2011
-   </metadata>
    <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)">
    <path d="M1465 2706 c-19 -12 -250 -147 -532 -308 l-123 -70 148 -85 c81 -47
    156 -89 167 -95 17 -7 52 10 194 91 96 56 177 101 182 101 4 0 85 -45 179
