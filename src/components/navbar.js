@@ -6,9 +6,9 @@ import {StaticImage} from "gatsby-plugin-image"
 function Header () {
 
     const [isExpanded, toggleExpansion] = useState(false)
-  
+
     return (
-        // Nav Bar Start 
+        // Nav Bar Start
         <header className="static-top md:fixed min-w-full flex items-center justify-between flex-wrap bg-white-custom p-4" style={{'zIndex': '2'}}>
         <div onClick={() => scrollTo('#top')} className="flex items-center flex-shrink-0 text-white ml-1 md:ml-3 md:mt-2.5">
             <StaticImage
@@ -33,6 +33,9 @@ function Header () {
             </button>
             <button onClick={() => scrollTo('#faq')} className="filter drop-shadow-lg w-full text-lg font-normal focus:outline-none md:w-auto block mt-4 md:inline-block md:mt-0 text-gray-200 hover:underline md:mr-10">
               faq
+            </button>
+            <button onClick={() => scrollTo('#contact')} className="filter drop-shadow-lg w-full text-lg font-normal focus:outline-none md:w-auto block mt-4 md:inline-block md:mt-0 text-gray-200 hover:underline md:mr-10">
+                contact
             </button>
             <button onClick={() => scrollTo('#apply')} className="filter drop-shadow-lg w-full text-lg font-normal focus:outline-none md:w-auto block mt-4 md:inline-block md:mt-0 text-yellow-101 hover:underline md:mr-10">
               apply
