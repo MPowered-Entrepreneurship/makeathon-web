@@ -14,7 +14,7 @@ import {MakeIconUnfilled} from "../components/makeIconUnfilled"
 const IndexPage = () => (
   <React.Fragment>
     <Navbar />
-    <div className="max-h-screen grid grid-cols-1">
+    <div id="top" className="max-h-screen grid grid-cols-1">
       <video
         className="object-fill z-0 relative col-start-1 row-start-1 filter brightness-75"
         src={makebg}
@@ -22,9 +22,9 @@ const IndexPage = () => (
       </video>
       <div className="col-start-1 row-start-1 w-full h-full flex items-center justify-center">
         <div className="w-full h-full flex items-center justify-center flex-col">
-          <MakeIconUnfilled classInfo="z-0 filter drop-shadow-xl" fill="text-yellow-101"/>
-          <p className="z-0 tracking-wider md:tracking-wider font-bold text-2xl md:text-5xl text-white filter drop-shadow-xl">M A K E A T H O N</p>
-          <p className="z-0 tracking-wider md:tracking-wider font-bold md:text-4xl text-white md:pt-4 xl:mb-40 filter drop-shadow-xl">FEBRUARY 4-6, 2022</p>
+          <MakeIconUnfilled classInfo="hidden md:visible z-0 filter drop-shadow-xl" fill="text-yellow-101"/>
+          <p className="z-0 tracking-wider md:tracking-wider font-bold text-2xl text-3xl sm:text-5xl text-white filter drop-shadow-xl">M A K E A T H O N</p>
+          <p className="z-0 tracking-wider md:tracking-wider font-bold md:text-4xl text-2xl text-white sm:pt-4 xl:mb-40 filter drop-shadow-xl">FEBRUARY 4-6, 2022</p>
           {/* Trueno Semibold */}
         </div>
       </div>
@@ -32,7 +32,7 @@ const IndexPage = () => (
       <FAQ />
       <Contact />
       <div className='w-full items-center flex'>
-       <p className='mx-auto text-gray-400'>© 2021 MPowered Entrepreneurship, All Rights Reserved. MPowered Entrepreneurship is a non-profit organization.</p>
+       <p className='mx-auto text-gray-400 text-xs md:text-base'>© 2021 MPowered Entrepreneurship, All Rights Reserved. MPowered Entrepreneurship is a non-profit organization.</p>
      </div>
     </div>
 
