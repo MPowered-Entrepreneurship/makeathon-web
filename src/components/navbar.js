@@ -38,9 +38,11 @@ function Header () {
             <button onClick={() => scrollTo('#contact')} className="filter drop-shadow-lg w-full text-lg font-normal focus:outline-none md:w-auto block mt-4 md:inline-block md:mt-0 text-gray-200 hover:underline md:mr-10">
                 contact
             </button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQf6sw8HTqACRJZTFhUi1nMzh4KXVkx0ACGWZ69y1DSzZiRg/viewform" target="_blank">
             <button onClick={() => scrollTo('#apply')} className="filter drop-shadow-lg w-full text-lg font-normal focus:outline-none md:w-auto block mt-4 md:inline-block md:mt-0 text-yellow-101 hover:underline md:mr-10">
               apply
             </button>
+            </a>
           </div>
         </div>
       </header>
