@@ -29,7 +29,6 @@ function FAQ () {
 
     function realFAQBullet(q, answer, num){
        return( <li className="py-6 border-gray-200 border-solid border-b" >
-            // border-gray-200 border-solid border-b
             <div className="flex justify-between items-center ">
                 <h3 className="text-gray-400 text-base  md:text-xl  xl:text-2xl w-10/12">{q}</h3>
                 <div className="cursor-pointer " onClick={() => {setQuestions(selectedFunction(num)); console.log(questions)}}>
