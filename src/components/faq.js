@@ -78,8 +78,8 @@ function FAQ () {
           <div className="w-10/12 mx-auto max-w-xl">
                 {realFAQBullet("Where is Makeathon?", "Makeathon is" +
                         " scheduled for February 4-6, 2021. The event will" +
-                        " be held in the Duderstadt Center at the" +
-                        " University of Michigan's North Campus. ", 1)}
+                        " be headquartered in the Duderstadt Center at the" +
+                        " University of Michigan's North Campus, but all teams will be asked to work remotely.", 1)}
                 {realFAQBullet("Who can participate in Makeathon?",
                     "Makeathon is open to all college students and all " +
                     "majors - from the University of Michigan - ranging from " +
